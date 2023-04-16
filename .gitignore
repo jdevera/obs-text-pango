@@ -1,1 +1,13 @@
-build*/
+*~
+.DS_Store
+/build/
+/build_*/
+/release/
+/installer/Output/
+
+.vscode
+.idea
+
+# ignore generated files
+*.generated.*
+**/.Brewfile.lock.json
